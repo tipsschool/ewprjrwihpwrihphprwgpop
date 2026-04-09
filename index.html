@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Infinity IQ Puzzle</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h1>🧠 Infinity IQ Puzzle</h1>
+
+    <div class="stats">
+        <p>Score: <span id="score">0</span></p>
+        <p>Accuracy: <span id="accuracy">0%</span></p>
+        <p>Performance: <span id="performance">0%</span></p>
+    </div>
+
+    <div class="puzzle" id="question"></div>
+
+    <input type="number" id="answer" placeholder="Your Answer">
+    <button onclick="checkAnswer()">Submit</button>
+
+    <h2>🏆 Leaderboard</h2>
+    <ul id="leaderboard"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
